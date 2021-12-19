@@ -4,18 +4,18 @@ using namespace std;
 
 int main()
 {
-    int a, b;
+    int d, b;
     char c;
-    cin >> a >> c >> b;
+    cin >> d >> c >> b;
 
     if (c == '+')
-        cout << a+b;
+        cout << d+b;
     else if (c == '-')
-        cout << a-b;
+        cout << d-b;
     else if (c == '*')
-        cout << a*b;
+        cout << d*b;
     else if (c == '/')
-        cout << a/b;
+        cout << d/b;
 
     return 0;
 }
